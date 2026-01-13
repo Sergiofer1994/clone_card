@@ -89,18 +89,6 @@ npm run lint
 - Usa ESLint para mantener consistencia de código.
 - Añade testing (Jest/React Testing Library) si el proyecto crece.
 
----
-
-## 🤝 Contribuciones
-
-Si quieres contribuir, crea un fork, abre una rama con tu cambio y envía un PR explicando la mejora.
-
----
-
 ## 📄 Licencia
 
-Añade un archivo `LICENSE` si quieres publicar bajo una licencia (por ejemplo MIT).
-
----
-
-Si quieres, puedo añadir badges, una captura de pantalla o instrucciones para desplegar en Netlify/ Vercel. ¿Quieres que lo haga? 💡
+CC By
