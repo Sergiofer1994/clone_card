@@ -1,16 +1,106 @@
-# React + Vite
+# Clone Card — Proyecto de ejemplo con React + Vite ⚡️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Descripción**
 
-Currently, two official plugins are available:
+Este proyecto es una pequeña **clonación de una tarjeta (card)** hecha con **React** y **Vite**. Incluye una estructura simple de componentes, estilos y recursos estáticos (imágenes) para aprender y experimentar con React moderno y Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Características
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- Proyecto creado con Vite (arranque rápido y HMR).
+- Arquitectura basada en componentes React.
+- Estilos CSS modulares para componentes (ej.: `Testimonio.css`).
+- Soporta comandos comunes: desarrollo, build y preview.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tecnologías
+
+- React 19
+- Vite
+- ESLint (configuración básica)
+
+---
+
+## 🛠️ Instalación y uso
+
+Requisitos: Node.js (16+ recomendado) y npm o yarn.
+
+1. Instalar dependencias:
+
+```bash
+npm install
+# o
+# yarn
+```
+
+2. Ejecutar en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+Abre http://localhost:5173 (o la dirección que indique Vite) para ver la app.
+
+3. Compilar para producción:
+
+```bash
+npm run build
+```
+
+4. Previsualizar la build:
+
+```bash
+npm run preview
+```
+
+5. Ejecutar linter:
+
+```bash
+npm run lint
+```
+
+---
+
+## 📁 Estructura del proyecto (resumen)
+
+- `index.html` — entrada HTML
+- `src/main.jsx` — punto de entrada React
+- `src/App.jsx` — componente raíz
+- `src/components/Testimonio.jsx` — componente de ejemplo
+- `src/styles/Testimonio.css` — estilos del componente
+- `src/assets/img/` — imágenes usadas en la interfaz
+- `package.json` — scripts y dependencias
+
+---
+
+## ✏️ Cómo extender el proyecto
+
+- Añadir nuevos componentes en `src/components/`.
+- Agregar imágenes en `src/assets/img/` y referenciarlas desde los componentes.
+- Para estilos globales utiliza `index.css` o crea archivos CSS por componente.
+
+---
+
+## ✅ Buenas prácticas sugeridas
+
+- Mantén componentes pequeños y reutilizables.
+- Usa ESLint para mantener consistencia de código.
+- Añade testing (Jest/React Testing Library) si el proyecto crece.
+
+---
+
+## 🤝 Contribuciones
+
+Si quieres contribuir, crea un fork, abre una rama con tu cambio y envía un PR explicando la mejora.
+
+---
+
+## 📄 Licencia
+
+Añade un archivo `LICENSE` si quieres publicar bajo una licencia (por ejemplo MIT).
+
+---
+
+Si quieres, puedo añadir badges, una captura de pantalla o instrucciones para desplegar en Netlify/ Vercel. ¿Quieres que lo haga? 💡
